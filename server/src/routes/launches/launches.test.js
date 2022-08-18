@@ -84,7 +84,7 @@ describe('Launches API', () => {
     });
   });
 
-  describe('Test DELETE /launches:id', () => {
+ /*  describe('Test DELETE /launches:id', () => {
     const abortedLaunch = {
       flightNumber: 100,
       mission: 'Kepler Exoplanet Survey',
@@ -108,7 +108,7 @@ describe('Launches API', () => {
 
       
     });
-  });
+  }); */
 
   describe('Test GET /planets', () => {
     test('should return all planets', async () => {
